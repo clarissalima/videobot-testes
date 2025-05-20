@@ -1,6 +1,7 @@
 // tests/unit/somar.test.js
 import { describe, it, expect } from 'vitest';
-import { somar } from '../../src/utils/somar'; 
+import { somar } from '../../utils/somar';
+
 
 describe('Função Somar', () => {
   it('deve somar dois números corretamente', () => {
